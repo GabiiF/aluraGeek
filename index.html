@@ -30,7 +30,7 @@
 
         <!-- Sección de productos-->
         <section class="productos">
-            <h1>Mis Productos</h1>
+            <h1>MIS PRODUCTOS:</h1>
             <!-- <p class="msj_productos"> No se han agregado productos.</p> -->
             <div class="product_container">
                 <!-- Card del producto -->
@@ -85,8 +85,19 @@
         </section>
 
         <!-- Sección formulário del AluraGeek-->
-        <section class="formulario">
-            <h1>Agregar Producto</h1>
+        <section class="agregar_prod">
+            <h1 class="title_form">AGREGAR PRODUCTO:</h1>
+            <form action="" class="formulario">
+                <input type="text" name="nombre" id="nombre" class="campo" placeholder="nombre...">
+                <input type="text" name="precio" id="precio" class="campo" placeholder="precio...">
+                <input type="text" name="imagen" id="imagen" class="campo" placeholder="imagen...">
+
+                <!-- Botones -->
+                <div class="botones">
+                    <input type="button" class="boton enviar" value="Enviar">
+                    <input type="button" class="boton limpiar" value="Limpiar">
+                </div>
+            </form>
         </section>
     </main>
 
