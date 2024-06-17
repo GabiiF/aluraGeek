@@ -1,0 +1,138 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: white;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    padding-left: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*Sección Menu*/
+.menu {
+    background-color: blueviolet;
+    padding: 20px 0px;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__title {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+/*Seccion principal*/
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*fijarse si tengo que cambiar*/
+    color: black;
+    padding: 60px 40px 60px 40px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    width: 758px;
+}
+.product_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px;
+}
+
+/*cards*/
+.card {
+    background-color: #5D04D9;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 176px;
+    height: 178px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.card-container--info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nombre_prod{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    margin: 0;
+}
+.card-container--value{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.card_precio{
+    margin-bottom: 0;
+}
+.card-container--value img{
+    width: 24px;
+    height: 24px;
+}
+
+/*----------------------*/
+/*Seccion Formulario*/
+
+
+
+/*Sección de Footer*/
+.footer {
+    background-color: blueviolet;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alura__desarrollo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#desc {
+    font-weight: 200;
+}
