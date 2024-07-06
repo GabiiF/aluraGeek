@@ -60,6 +60,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     padding: 40px;
 }
@@ -192,4 +193,39 @@ input::placeholder {
 
 #desc {
     font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__title{
+        font-size: large;
+    }
+    .principal {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .title_form {
+        width: auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    .agregar_prod{
+        width: 85%;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .campo{
+        height: 45px;
+    }
+    #title-prod{
+        text-align: center;
+        font-size: 18px;
+        text-wrap: nowrap;
+    }
+    .productos{
+        padding: 40px 0;
+        width: 100%;
+    }
+    
 }
