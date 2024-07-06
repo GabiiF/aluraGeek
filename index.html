@@ -32,64 +32,20 @@
         <section class="productos">
             <h1 class="title_form" id="title-prod">MIS PRODUCTOS:</h1>
             <!-- <p class="msj_productos"> No se han agregado productos.</p> -->
-            <div class="product_container">
+            <div class="product_container" data-lista>
                 <!-- Card del producto -->
-                <div class="card">
-                    <img class="card-img" src="./assets/stormtrooper.png" />
-                    <div class="card-container--info">
-                        <p class="nombre_prod">Nombre</p>
-                        <div class="card-container--value">
-                            <p class="card_precio">$ 00.00</p>
-                            <img src="./assets/icon _trash 2_.png" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card del producto -->
-                <div class="card">
-                    <img class="card-img" src="./assets/game_boy.png" />
-                    <div class="card-container--info">
-                        <p class="nombre_prod">Nombre</p>
-                        <div class="card-container--value">
-                            <p class="card_precio">$ 00.00</p>
-                            <img src="./assets/icon _trash 2_.png" />
-                        </div>
-                    </div>
-                </div>
-
-
-            <!-- Card del producto -->
-            <div class="card">
-                <img class="card-img" src="./assets/stormtrooper.png" />
-                <div class="card-container--info">
-                    <p class="nombre_prod">Nombre</p>
-                    <div class="card-container--value">
-                        <p class="card_precio">$ 00.00</p>
-                        <img src="./assets/icon _trash 2_.png" />
-                    </div>
-                </div>
+                <!-- Aparecen e forma dinámica -->
             </div>
-            <!-- Card del producto -->
-            <div class="card">
-                <img class="card-img" src="./assets/game_boy.png" />
-                <div class="card-container--info">
-                    <p class="nombre_prod">Nombre</p>
-                    <div class="card-container--value">
-                        <p class="card_precio">$ 00.00</p>
-                        <img src="./assets/icon _trash 2_.png" />
-                    </div>
-                </div>
-            </div>
-            
-        </div>
         </section>
 
         <!-- Sección formulário del AluraGeek-->
         <section class="agregar_prod">
             <h1 class="title_form">AGREGAR PRODUCTO:</h1>
             <form action="" class="formulario">
-                <input type="text" name="nombre" id="nombre" class="campo" placeholder="nombre..." minlength="3" maxlength="21" required >
-                <input type="text" name="precio" id="precio" class="campo" placeholder="precio..." minlength="3" required>
+                <input type="text" name="nombre" id="nombre" class="campo" placeholder="nombre..." minlength="3"
+                    maxlength="21" required>
+                <input type="text" name="precio" id="precio" class="campo" placeholder="precio..." minlength="3"
+                    required>
                 <input type="file" name="imagen" id="imagen" class="campo" placeholder="imagen..." required>
 
                 <!-- Botones -->
@@ -116,6 +72,7 @@
     </section>
     </div>
     <!-- Script del documento JavaScript -->
+    <script src="../js/mostrarProductos.js" type="module"></script>
     <script src="validacion.js"></script>
 </body>
 
