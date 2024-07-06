@@ -8,5 +8,5 @@ async function listarProductos(){
 
 //exportamos la funcion
 export const conexionAPI={
-    listarProductos;
+    listarProductos
 }
