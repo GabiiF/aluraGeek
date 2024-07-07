@@ -1,13 +1,13 @@
 {
     "productos":[
         {
-            "nombre": "stormtrooper",
-            "precio": "00.00",
+            "nombre": "Stormtrooper",
+            "precio": "20.00",
             "imagen": "./assets/stormtrooper.png",
             "id": 1
         },
         {
-            "nombre": "game_boy",
+            "nombre": "Game boy",
             "precio": "10.00",
             "imagen": "./assets/game_boy.png",
             "id": 2

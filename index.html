@@ -41,12 +41,12 @@
         <!-- Sección formulário del AluraGeek-->
         <section class="agregar_prod">
             <h1 class="title_form">AGREGAR PRODUCTO:</h1>
-            <form action="" class="formulario">
+            <form action="" class="formulario" data-formulario>
                 <input type="text" name="nombre" id="nombre" class="campo" placeholder="nombre..." minlength="3"
-                    maxlength="21" required>
+                    maxlength="21" required data-nombre>
                 <input type="text" name="precio" id="precio" class="campo" placeholder="precio..." minlength="3"
-                    required>
-                <input type="file" name="imagen" id="imagen" class="campo" placeholder="imagen..." required>
+                    required data-precio>
+                <input type="file" name="imagen" id="imagen" class="campo" placeholder="imagen..." required data-imagen>
 
                 <!-- Botones -->
                 <div class="botones">
@@ -73,6 +73,7 @@
     </div>
     <!-- Script del documento JavaScript -->
     <script src="../js/mostrarProductos.js" type="module"></script>
+    <script src="../js/crearProducto.js" type="module"></script>
     <script src="validacion.js"></script>
 </body>
 

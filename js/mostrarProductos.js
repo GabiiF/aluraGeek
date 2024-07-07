@@ -10,7 +10,7 @@ function crearCard(nombre, precio, imagen){
                     <div class="card-container--info">
                         <p class="nombre_prod">${nombre}</p>
                         <div class="card-container--value">
-                            <p class="card_precio">$ ${precio}</p>
+                            <p class="card_precio">${precio}</p>
                             <img src="./assets/icon _trash 2_.png" />
                         </div>
                     </div>`;
