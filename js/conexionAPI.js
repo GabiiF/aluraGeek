@@ -6,14 +6,14 @@ async function listarProductos(){
     return conexionConvertida;
 }
 
-async function crearProducto(nombre, precio, imagen){
+async function enviarProducto(nombre, precio, imagen){
     const conexion = await fetch("http://localhost:3001/productos",{
         method: "POST",
         headers:{"Content-Type": "application/json"},
         body: JSON.stringify({
             nombre: nombre,
             precio: `$ ${precio}`,
-            imagen: imagen
+            imagen: `./assets/${nombre}.png`/*fijarse para que se guarde en assets */
         })        
     })
     const conexionConvertida = conexion.json();
@@ -23,5 +23,5 @@ async function crearProducto(nombre, precio, imagen){
 
 //exportamos la funcion
 export const conexionAPI={
-    listarProductos, crearProducto
+    listarProductos, enviarProducto
 }

@@ -1,16 +1,46 @@
 {
-    "productos":[
-        {
-            "nombre": "Stormtrooper",
-            "precio": "20.00",
-            "imagen": "./assets/stormtrooper.png",
-            "id": 1
-        },
-        {
-            "nombre": "Game boy",
-            "precio": "10.00",
-            "imagen": "./assets/game_boy.png",
-            "id": 2
-        }
-    ]
+  "productos": [
+    {
+      "nombre": "Stormtrooper",
+      "precio": "20.00",
+      "imagen": "./assets/stormtrooper.png",
+      "id": 1
+    },
+    {
+      "nombre": "Game boy",
+      "precio": "10.00",
+      "imagen": "./assets/game_boy.png",
+      "id": 2
+    },
+    {
+      "id": "ceac",
+      "nombre": "Stormtrooper",
+      "precio": "$ 20.00",
+      "imagen": "C:\\fakepath\\stormtrooper.png"
+    },
+    {
+      "id": "9d1c",
+      "nombre": "Stormtrooper",
+      "precio": "$ 20.00",
+      "imagen": "./assets/C:\\fakepath\\stormtrooper.png"
+    },
+    {
+      "id": "aebe",
+      "nombre": "Stormtrooper",
+      "precio": "$ 20.00",
+      "imagen": "./assets/Stormtrooper"
+    },
+    {
+      "id": "63a6",
+      "nombre": "Stormtrooper",
+      "precio": "$ 20.00",
+      "imagen": "./assets/Stormtrooper.png"
+    },
+    {
+      "id": "8131",
+      "nombre": "Game boy",
+      "precio": "$ 20.00",
+      "imagen": "./assets/Game boy.png"
+    }
+  ]
 }
