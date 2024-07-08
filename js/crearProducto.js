@@ -10,7 +10,7 @@ async function crearProducto(evento){
 
     await conexionAPI.enviarProducto(nombre, precio, imagen);
 
-    /*redireccionar a una pagina? */
+    /*redireccionar a una pagina? No hace falta cuano se crea producto*/
 }
 
 formulario.addEventListener("submit", evento=> crearProducto(evento));

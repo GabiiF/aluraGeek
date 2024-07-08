@@ -4,43 +4,25 @@
       "nombre": "Stormtrooper",
       "precio": "20.00",
       "imagen": "./assets/stormtrooper.png",
-      "id": 1
+      "id": "1"
     },
     {
       "nombre": "Game boy",
       "precio": "10.00",
       "imagen": "./assets/game_boy.png",
-      "id": 2
+      "id": "2"
     },
     {
-      "id": "ceac",
-      "nombre": "Stormtrooper",
-      "precio": "$ 20.00",
-      "imagen": "C:\\fakepath\\stormtrooper.png"
+      "id": "488e",
+      "nombre": "wonder woman",
+      "precio": "$ 40.00",
+      "imagen": "https://acdn.mitiendanube.com/stores/001/017/593/products/ptcol0901-83320517cc007fbd4516800082062144-1024-1024.webp"
     },
     {
-      "id": "9d1c",
-      "nombre": "Stormtrooper",
-      "precio": "$ 20.00",
-      "imagen": "./assets/C:\\fakepath\\stormtrooper.png"
-    },
-    {
-      "id": "aebe",
-      "nombre": "Stormtrooper",
-      "precio": "$ 20.00",
-      "imagen": "./assets/Stormtrooper"
-    },
-    {
-      "id": "63a6",
-      "nombre": "Stormtrooper",
-      "precio": "$ 20.00",
-      "imagen": "./assets/Stormtrooper.png"
-    },
-    {
-      "id": "8131",
-      "nombre": "Game boy",
-      "precio": "$ 20.00",
-      "imagen": "./assets/Game boy.png"
+      "id": "96e7",
+      "nombre": "Funko Harry-potter",
+      "precio": "$ 10.00",
+      "imagen": "https://m.media-amazon.com/images/I/71grqjRENdL._AC_SX679_.jpg"
     }
   ]
 }

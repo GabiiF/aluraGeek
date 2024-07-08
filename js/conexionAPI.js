@@ -13,8 +13,26 @@ async function enviarProducto(nombre, precio, imagen){
         body: JSON.stringify({
             nombre: nombre,
             precio: `$ ${precio}`,
-            imagen: `./assets/${nombre}.png`/*fijarse para que se guarde en assets */
+            imagen: imagen/*fijarse para que se guarde en assets */
         })        
+    })
+    const conexionConvertida = conexion.json();
+
+    return conexionConvertida;
+}
+
+async function buscarProducto(id){
+    const conexion = await fetch(`http://localhost:3001/productos?id=${id}`);
+
+    const conexionConvertida = conexion.json();
+
+    return conexionConvertida;
+}
+
+async function borrarProducto(id){
+    //console.log("conexionAPI->eliminar a: ",id);
+    const conexion = await fetch(`http://localhost:3001/productos/${id}`,{
+        method: "DELETE"   
     })
     const conexionConvertida = conexion.json();
 
@@ -23,5 +41,5 @@ async function enviarProducto(nombre, precio, imagen){
 
 //exportamos la funcion
 export const conexionAPI={
-    listarProductos, enviarProducto
+    listarProductos, enviarProducto, borrarProducto, buscarProducto
 }

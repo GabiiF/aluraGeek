@@ -52,7 +52,7 @@ a {
 .productos {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 40px 40px 0;
     align-items: center;
     width: 758px;
 }
@@ -62,7 +62,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    padding: 40px;
+    padding: 0 40px 40px;
 }
 
 /*cards*/
@@ -93,6 +93,7 @@ a {
     font-family: monospace, 'IBM Plex Mono';
     font-size: 20px;
     margin: 0;
+    width: 180px;
 }
 .card-container--value{
     display: flex;
@@ -101,6 +102,12 @@ a {
 }
 .card_precio{
     margin-bottom: 0;
+}
+button{
+    display: flex;
+    background: none;
+    border: none;
+    padding: 0 5px;
 }
 .card-container--value img{
     width: 24px;
@@ -171,7 +178,7 @@ input::placeholder {
 /*Sección de Footer*/
 .footer {
     background-color: blueviolet;
-    padding: 60px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
