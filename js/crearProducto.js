@@ -8,7 +8,12 @@ async function crearProducto(evento){
     const precio = document.querySelector("[data-precio]").value;
     const imagen = document.querySelector("[data-imagen]").value;
 
-    await conexionAPI.enviarProducto(nombre, precio, imagen);
+    try {
+        await conexionAPI.enviarProducto(nombre, precio, imagen);
+
+    } catch(error) {
+        alert(error);
+    }
 
     /*redireccionar a una pagina? No hace falta cuano se crea producto*/
 }

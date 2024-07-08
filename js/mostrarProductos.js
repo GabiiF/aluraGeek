@@ -32,7 +32,7 @@ async function listarProductos(){
         const listAPI = await conexionAPI.listarProductos();
         
         listAPI.forEach(producto => lista.appendChild(crearCard(producto.nombre, producto.precio, producto.imagen, producto.id)));      
-    } catch (error) {
+    } catch{
         lista.innerHTML = `<h2 class="mensaje__titulo">Ha ocurrido un problema de conexion :( </h2>`
     }
 }

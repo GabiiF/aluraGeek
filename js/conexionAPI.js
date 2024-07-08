@@ -18,6 +18,9 @@ async function enviarProducto(nombre, precio, imagen){
     })
     const conexionConvertida = conexion.json();
 
+    if(!conexion.ok){
+        throw new Error("Ha ocurrido un error al enviar el producto");
+    }
     return conexionConvertida;
 }
 
