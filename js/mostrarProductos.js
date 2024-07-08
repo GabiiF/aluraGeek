@@ -19,8 +19,8 @@ function crearCard(nombre, precio, imagen,id){
     const btn = producto.querySelector("button");
     btn.addEventListener("click", ()=>{
         const id = btn.id; 
-       conexionAPI.borrarProducto(id).then(respuesta=>{
-        //console.log("mostrarProductos.js",respuesta);
+        conexionAPI.borrarProducto(id).then(respuesta=>{
+        console.log("mostrarProductos.js",respuesta);
        }).catch(err=>alert("Ocurrió un error"))
     })
     return producto;
