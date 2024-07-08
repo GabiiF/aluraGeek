@@ -1,5 +1,5 @@
 async function listarProductos(){
-    const conexion = await fetch("http://localhost:3001/productos");
+    const conexion = await fetch("https://alura-api-eight.vercel.app/productos");
 
     const conexionConvertida = conexion.json();
 
@@ -7,7 +7,7 @@ async function listarProductos(){
 }
 
 async function enviarProducto(nombre, precio, imagen){
-    const conexion = await fetch("http://localhost:3001/productos",{
+    const conexion = await fetch("https://alura-api-eight.vercel.app/productos",{
         method: "POST",
         headers:{"Content-Type": "application/json"},
         body: JSON.stringify({
@@ -25,7 +25,7 @@ async function enviarProducto(nombre, precio, imagen){
 }
 
 async function buscarProducto(id){
-    const conexion = await fetch(`http://localhost:3001/productos?id=${id}`);
+    const conexion = await fetch(`https://alura-api-eight.vercel.app/productos?id=${id}`);
 
     const conexionConvertida = conexion.json();
 
@@ -34,7 +34,7 @@ async function buscarProducto(id){
 
 async function borrarProducto(id){
     //console.log("conexionAPI->eliminar a: ",id);
-    const conexion = await fetch(`http://localhost:3001/productos/${id}`,{
+    const conexion = await fetch(`https://alura-api-eight.vercel.app/productos/${id}`,{
         method: "DELETE"   
     })
     const conexionConvertida = conexion.json();
