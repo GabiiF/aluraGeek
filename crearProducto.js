@@ -10,6 +10,7 @@ async function crearProducto(evento){
 
     try {
         await conexionAPI.enviarProducto(nombre, precio, imagen);
+        window.location.reload(); 
 
     } catch(error) {
         alert(error);
