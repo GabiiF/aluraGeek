@@ -233,6 +233,12 @@ input::placeholder {
     .card-container--info {
         gap: 0;
     }
+    .card_precio {
+        font-size: 12px;
+    }
+    .delete-button{
+        padding: 0;
+    }
     .agregar_prod{
         width: 85%;
     }
