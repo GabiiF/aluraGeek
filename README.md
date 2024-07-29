@@ -10,13 +10,13 @@ AluraGeek es una aplicación en donde te permite crear, listar o eliminar produc
 La página web tiene campos para la inserción de datos de productos y para el listado. A su vez, el usuario puede elegir si quiere eliminar el producto y el resultado se muestra en pantalla.
 
 
-## Secciones
+## :triangular_flag_on_post: Secciones
 
 -  **Mis Productos:** Esta sección es donde se visualizan los productos existentes. Cada producto se presenta en una tarjeta (card).
 -  **Agregar Producto:** En esta sección, se encuentra un formulario que permite agregar nuevos productos. Contiene tres campos de entrada para el nombre del producto, el precio y la imagen, incluye un contenedor de botones con un botón de enviar y un botón de limpiar.
  
- 
-## Implementación de la Fake API
+
+## :pencil2: Implementación de la Fake API
 JSON Server simula una API REST a partir de un archivo JSON. 
 Permite desarrollar y probar aplicaciones frontend sin necesidad de una API real. **Facilita la creación rápida de endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y simular respuestas de servidor, lo que agiliza el desarrollo de aplicaciones web.** Es útil para prototipado rápido, pruebas de concepto y desarrollo frontend independiente del backend.
 
