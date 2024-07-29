@@ -204,7 +204,7 @@ input::placeholder {
     font-weight: 200;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 519px) {
     .menu__title{
         font-size: large;
     }
@@ -217,6 +217,19 @@ input::placeholder {
         width: auto;
         font-size: 18px;
         text-align: center;
+    }
+    .product_container {
+        padding: 0;
+    }
+    .card {
+        width: 38%;
+    }
+    .card-img {
+        width: auto;
+        height: 142px;
+    }
+    .card-container--info {
+        gap: 0;
     }
     .agregar_prod{
         width: 85%;
@@ -235,6 +248,40 @@ input::placeholder {
     .productos{
         padding: 40px 0;
         width: 100%;
+    }  
+}
+@media screen and (min-width: 520px) and (max-width: 1023px) {
+    .principal {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
-    
+    .product_container {
+        padding: 0;
+    }
+    .card {
+        width: 223px;
+    }
+    .card-img {
+        width: 96%;
+    }
+
+    .agregar_prod{
+        width: 85%;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .campo{
+        height: 45px;
+    }
+    #title-prod{
+        text-align: center;
+        font-size: 18px;
+        text-wrap: nowrap;
+    }
+    .productos{
+        padding: 40px 0;
+        width: 100%;
+    }  
 }
