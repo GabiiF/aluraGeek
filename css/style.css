@@ -155,6 +155,7 @@ input::placeholder {
 .botones{
     display: flex;
     gap: 13px;
+    justify-content: center;
 }
 .boton{
     width: 188px;
