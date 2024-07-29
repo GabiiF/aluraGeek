@@ -20,7 +20,7 @@ function crearCard(nombre, precio, imagen,id){
     btn.addEventListener("click", ()=>{
         const id = btn.id; 
         conexionAPI.borrarProducto(id).then(respuesta=>{
-        console.log("mostrarProductos.js",respuesta);
+        //console.log("mostrarProductos.js",respuesta);
         window.location.reload(); 
        }).catch(err=>alert("Ocurrió un error"))
     })
