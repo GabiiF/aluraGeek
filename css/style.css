@@ -215,9 +215,9 @@ input::placeholder {
         align-items: center;
     }
     .title_form {
-        width: auto;
-        font-size: 18px;
+        width: 305px;
         text-align: center;
+        font-size: 18px;
     }
     .product_container {
         padding: 0;
